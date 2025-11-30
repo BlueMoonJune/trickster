@@ -264,6 +264,9 @@ trickster:
     get_flecks: Observer's Ingress
     delete_fleck: Orwell's Ploy
 
+    scale_fleck: Ploy of Obstruction
+    roll_fleck: Peppy's Ploy
+
     get_scale: Ingress of Occupation
     set_scale: Ploy of Occupation
 
@@ -415,6 +418,9 @@ block.trickster:
   scroll_shelf: Scroll Shelf
   charging_array: Charging Array
   inert_spawner: Inert Spawner
+
+entity.trickster:
+  levitating_block: Levitating Block
 
 effect.trickster:
   mana_boost: Mana Hyperflux
