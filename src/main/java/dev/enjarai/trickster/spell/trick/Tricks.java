@@ -4,7 +4,7 @@ import com.mojang.serialization.Lifecycle;
 import dev.enjarai.trickster.Trickster;
 import dev.enjarai.trickster.item.ModItems;
 import dev.enjarai.trickster.spell.Pattern;
-import dev.enjarai.trickster.spell.fragment.slot.ItemTypeFragment;
+import dev.enjarai.trickster.spell.fragment.ItemTypeFragment;
 import dev.enjarai.trickster.spell.fragment.slot.VariantType;
 import dev.enjarai.trickster.spell.trick.basic.*;
 import dev.enjarai.trickster.spell.trick.block.*;

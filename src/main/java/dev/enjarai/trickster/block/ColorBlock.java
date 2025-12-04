@@ -4,14 +4,16 @@ import com.mojang.serialization.MapCodec;
 import net.minecraft.block.*;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.sound.BlockSoundGroup;
-import net.minecraft.util.DyeColor;
 import net.minecraft.util.math.BlockPos;
 import org.jetbrains.annotations.Nullable;
 
-public class ColorBlock extends BlockWithEntity implements Stainable {
+public class ColorBlock extends BlockWithEntity {
 
     protected ColorBlock() {
-        super(Settings.create().sounds(BlockSoundGroup.DECORATED_POT));
+        super(Settings.copy(Blocks.TERRACOTTA)
+                .sounds(BlockSoundGroup.DECORATED_POT)
+                .solid()
+        );
     }
 
     // TODO decide if we can make this work?
@@ -29,10 +31,5 @@ public class ColorBlock extends BlockWithEntity implements Stainable {
     @Override
     public BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
         return new ColorBlockEntity(pos, state);
-    }
-
-    @Override
-    public DyeColor getColor() {
-        return DyeColor.GRAY;
     }
 }
