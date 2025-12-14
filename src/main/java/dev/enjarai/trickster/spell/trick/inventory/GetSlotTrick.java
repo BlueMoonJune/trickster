@@ -4,7 +4,7 @@ import dev.enjarai.trickster.spell.Pattern;
 import dev.enjarai.trickster.spell.SpellContext;
 import dev.enjarai.trickster.spell.fragment.*;
 import dev.enjarai.trickster.spell.fragment.slot.ContainerFragment;
-import dev.enjarai.trickster.spell.fragment.slot.SlotFragment;
+import dev.enjarai.trickster.spell.fragment.SlotFragment;
 import dev.enjarai.trickster.spell.fragment.slot.StorageSource;
 import dev.enjarai.trickster.spell.trick.Trick;
 import dev.enjarai.trickster.spell.type.Signature;

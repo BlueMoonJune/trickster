@@ -1,6 +1,7 @@
 package dev.enjarai.trickster.spell.fragment.slot;
 
 import dev.enjarai.trickster.spell.SpellContext;
+import dev.enjarai.trickster.spell.fragment.SlotFragment;
 import dev.enjarai.trickster.spell.trick.Trick;
 
 public interface ResourceVariantFragment<T> extends VariantingFragment {

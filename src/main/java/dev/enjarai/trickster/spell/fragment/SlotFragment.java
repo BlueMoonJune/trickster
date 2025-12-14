@@ -1,4 +1,4 @@
-package dev.enjarai.trickster.spell.fragment.slot;
+package dev.enjarai.trickster.spell.fragment;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,7 +6,9 @@ import java.util.Optional;
 import java.util.UUID;
 import java.util.function.Function;
 
-import dev.enjarai.trickster.spell.fragment.FragmentType;
+import dev.enjarai.trickster.spell.fragment.slot.StorageFragment;
+import dev.enjarai.trickster.spell.fragment.slot.StorageSource;
+import dev.enjarai.trickster.spell.fragment.slot.VariantType;
 import net.fabricmc.fabric.api.transfer.v1.item.ItemVariant;
 import net.fabricmc.fabric.api.transfer.v1.storage.base.SingleSlotStorage;
 import net.fabricmc.fabric.api.transfer.v1.transaction.Transaction;

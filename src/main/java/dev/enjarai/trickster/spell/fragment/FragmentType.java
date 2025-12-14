@@ -10,8 +10,6 @@ import dev.enjarai.trickster.spell.PatternGlyph;
 import dev.enjarai.trickster.spell.SpellContext;
 import dev.enjarai.trickster.spell.SpellPart;
 import dev.enjarai.trickster.spell.fragment.slot.FluidTypeFragment;
-import dev.enjarai.trickster.spell.fragment.ItemTypeFragment;
-import dev.enjarai.trickster.spell.fragment.slot.SlotFragment;
 import dev.enjarai.trickster.spell.fragment.slot.ContainerFragment;
 import dev.enjarai.trickster.spell.trick.Trick;
 import dev.enjarai.trickster.spell.type.ArgType;

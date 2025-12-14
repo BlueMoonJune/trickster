@@ -1,6 +1,7 @@
 package dev.enjarai.trickster.spell.fragment.slot;
 
 import dev.enjarai.trickster.Trickster;
+import dev.enjarai.trickster.spell.fragment.ItemTypeFragment;
 import io.wispforest.endec.Endec;
 import io.wispforest.owo.serialization.endec.MinecraftEndecs;
 import net.fabricmc.fabric.api.transfer.v1.fluid.FluidVariant;
